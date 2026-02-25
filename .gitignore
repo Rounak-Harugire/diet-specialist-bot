@@ -1,0 +1,35 @@
+# --- Security ---
+.env
+*.env
+secrets.py
+
+# --- Python / Environment ---
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+/site-packages/
+.python-version
+
+# --- Caching & Temporary Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+DS_Store
+Thumbs.db
+
+# --- Streamlit Specific ---
+.streamlit/config.toml
+.streamlit/secrets.toml
